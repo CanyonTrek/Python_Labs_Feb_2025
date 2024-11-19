@@ -2,7 +2,7 @@
 # Author: Brad
 # version: 1.0
 # Description: the script will simulate a high street bank pin machine.
-
+#Max 3 attempts!
 
 """
 DocString
@@ -10,13 +10,14 @@ DocString
 
 master_pin = "0123"
 pin = None
+attempts = 0
 
-while pin != master_pin:
+while pin != master_pin and attempts <3:
     pin = input("Enter PIN: ")
     if pin ==master_pin:
         print("Valid PIN")
     else:
         print("Invalid PIN")
-
+        attempts +=1
 
 print("Done. ")
