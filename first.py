@@ -16,4 +16,9 @@ print("Lucky number is", random.randint(1, 50))
 from math import cos
 print("Cosine of 0.5 is", cos(0.5))
 
-
+import monday
+greeting = "Hi " + name
+print(greeting)
+print(monday._greeting)
+print(monday.__greeting)
+print(monday.__greeting__)

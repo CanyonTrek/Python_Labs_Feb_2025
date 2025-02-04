@@ -1,3 +1,6 @@
 #! /usr/bin/python
 
-print("Hello world!")
+_greeting = "Hello world!"
+__greeting = "Say bye"
+__greeting__ = "Good bye"
+
