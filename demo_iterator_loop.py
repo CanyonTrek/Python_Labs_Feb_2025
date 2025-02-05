@@ -11,3 +11,4 @@ for (idx,film) in enumerate(films): #generate tupple (0,'casshern'), next loop (
     films[idx]=film.title()
     #print(film.title(), end="\n")
     print(films[idx], end="\n")
+
