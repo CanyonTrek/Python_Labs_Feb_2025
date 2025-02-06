@@ -21,11 +21,15 @@ def mul(*args):
 def dev(x, z):
     return round(x/z, 3)
 
-print("Basic Calc app")
-print(f"4 + 2 = {add(4,2)}")
-print(f"4 + 2 + 3 = {add(4,2,3)}")
-print(f"4 x 2 x 3 = {mul(4,2,3)}")
-print(f"4 / 3  = {dev(4,3)}")
+def main():
+    print("Basic Calc app")
+    print(f"4 + 2 = {add(4,2)}")
+    print(f"4 + 2 + 3 = {add(4,2,3)}")
+    print(f"4 x 2 x 3 = {mul(4,2,3)}")
+    print(f"4 / 3  = {dev(4,3)}")
+    return None
 
-sys.exit(0)
+if __name__ == "__main__":
+    main()
+    sys.exit(0)
 
