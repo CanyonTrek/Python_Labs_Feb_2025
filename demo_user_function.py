@@ -15,6 +15,6 @@ say_hello(greeting="Hi", recipient="guys!")
 say_hello(greeting="Hi", recipient="guys!")
 say_hello("yo", recipient="homies!")
 say_hello("bonjour", 5)
-say_hello(greeting="yaya", recipient="Locos", "MX", "UK")
+say_hello(greeting="yaya", recipient="Locos")
 say_hello()
 
