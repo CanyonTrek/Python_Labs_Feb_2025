@@ -39,3 +39,27 @@ class Tank:
         self._health -= damage
         return None
 
+    def __add__(self, other):
+        return self._health + other._health
+
+    def __del__(self):
+        print("boom..")
+        return None
+
+    def get_health(self):
+        return self._health
+
+    def set_health(self, newhealth):
+         self._health = newhealth
+         return None
+
+    #tank_health = property(get_health, set_health)
+
+    @property
+    def tank_health(self):
+        return self._health
+
+    @tank_health.setter
+    def tank_health(self, newhealth):
+         self._health = newhealth
+         return None
